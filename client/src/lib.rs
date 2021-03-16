@@ -19,7 +19,7 @@ impl View for CounterView {
     fn view(&self, state: &Self::State, context: &ViewContext<Self::Callback>) -> Html {
         return html! {
             <div>
-                <h1>Hello, Aper!</h1>
+                <h1>{"Hello, Aper!"}</h1>
                 <p>{&format!("Counter: {}", state.0.0)}</p>
                 <button onclick=context.callback.reform(|_| Some(IncrementCounter))>
                     {"Increment"}
