@@ -11,8 +11,8 @@ crate-type = ["cdylib", "rlib"]
 
 
 [dependencies]
-aper = {git="https://github.com/aper-dev/aper"}
-aper-yew = {git="https://github.com/aper-dev/aper"}
+aper = {git="https://github.com/aper-dev/aper", branch="main"}
+aper-yew = {git="https://github.com/aper-dev/aper", branch="main"}
 console_error_panic_hook = "0.1.6"
 serde = { version = "1.0.124", features = ["derive"] }
 wasm-bindgen = "0.2"
