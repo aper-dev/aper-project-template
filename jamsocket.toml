@@ -1,0 +1,7 @@
+static_files = "static"
+
+[client]
+package = "{{project-name}}-client"
+
+[service]
+package = "{{project-name}}-service"

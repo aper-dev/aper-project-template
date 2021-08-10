@@ -1,0 +1,13 @@
+[package]
+name = "{{project-name}}-service"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+aper = { git="https://github.com/aper-dev/aper" }
+aper-jamsocket = { git="https://github.com/aper-dev/aper" }
+jamsocket-wasm = {git = "https://github.com/jamsocket/jamsocket"}
+{{project-name}}-common = {path="../common"}
