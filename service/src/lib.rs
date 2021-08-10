@@ -1,5 +1,5 @@
 use aper_jamsocket::AperJamsocketService;
-use counter_common::Counter;
+use {{crate_name}}_common::Counter;
 use jamsocket_wasm::jamsocket_wasm;
 use aper::StateMachineContainerProgram;
 
